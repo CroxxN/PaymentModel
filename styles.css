@@ -11,13 +11,13 @@ html{
 .wholeThing{
     position: relative;
 }
-.illustratedMusic{
+.illustratedMusic{ /*Unnesesary*/
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
-.priceBox{
+.priceBox{ /*Unnesesary*/
     width: 50%;
 }
 .imageWhite{
@@ -141,6 +141,7 @@ button:hover{
 .cancelOrder a{
     text-decoration: none;
 }
+/*For Mobile View*/
 @media screen and (max-width: 500px) {
     *{
         margin: 0px;
